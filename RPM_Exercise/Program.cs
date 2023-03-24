@@ -25,7 +25,6 @@ namespace RPM_Exercise
     {
         static HttpClient client = new HttpClient();
         static Timer timer;
-        static string databaseConnectionString = "Data Source=.\\SQLGMRACESERVER;Initial Catalog=RaceTeam;Integrated Security=True;Persist Security Info=False;Pooling=False;MultipleActiveResultSets=False;Connect Timeout=60;Encrypt=False;TrustServerCertificate=False";
 
         static async Task<ResponseDto> GetPetroleumData(string path)
         {
