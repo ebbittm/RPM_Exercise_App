@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RPM_Exercise.Entities
 {
-    [Table("Petroleum", Schema = "dbo")]
+    [Table("PriceHistory", Schema = "Petroleum")]
     public class PetroleumDataEntity
     {
         [Key]
